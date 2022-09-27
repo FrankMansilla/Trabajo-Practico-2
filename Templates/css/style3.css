@@ -1,0 +1,13 @@
+.buscador{
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+
+}
+
+input.scr{
+    padding: 9px 10px 9px 32px ;
+    outline: none;
+    font-size: 18px;
+    border-radius: 15px;
+}
