@@ -1,3 +1,17 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    font-family: MedievalSharp;
+    font-size: 18px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 200;
+    margin: 0;
+  }
+
+  
+
+
 .buscador{
     transform: translate(-50%, -50%);
     position: absolute;
@@ -5,9 +19,22 @@
 
 }
 
-input.scr{
+input.src{
     padding: 9px 10px 9px 32px ;
     outline: none;
     font-size: 18px;
     border-radius: 15px;
+    color: #444;
+    border: 3px solid burlywood;
+    background: burlywood url("/Templates/icons/search-icon.png") no-repeat 9px center;
+    width: 60px;
+    transition: all .7s;
+}
+
+input.src:hover{
+    width: 180px;
+    background-color: white;
+    border-color: rgb(102, 47, 11);
+    border-style: double;
+    border-color: 0 0 5px #6dcff680;
 }
