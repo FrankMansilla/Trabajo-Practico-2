@@ -26,7 +26,7 @@ input.src{
     border-radius: 15px;
     color: #444;
     border: 3px solid burlywood;
-    background: burlywood url("/Templates/icons/search-icon.png") no-repeat 9px center;
+    background: burlywood url("/icons/search-icon.png") no-repeat 9px center;
     width: 60px;
     transition: all .7s;
 }
